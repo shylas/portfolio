@@ -2,6 +2,7 @@ body {
   background: #80bfff;
   color: #ff3300;
   height: 100%;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 a {
@@ -15,6 +16,10 @@ a:visited {
 a:hover {
   background: white;
   border-radius: 15px;
+}
+
+a:active {
+  color: crimson;
 }
 
 p {
@@ -36,16 +41,18 @@ nav {
 article {
   margin: auto;
   width: 50%;
+  text-align: center;
 }
 
 section {
   background: papayawhip;
   border-radius: 15px;
-  border: 10px;
+  border: 20px;
   padding: 10px;
   margin: 10px;
   float: left;
 }
+
 
 footer {
   background-color: papayawhip;
