@@ -1,0 +1,58 @@
+body {
+  background: #80bfff;
+  color: #ff3300;
+  height: 100%;
+}
+
+a {
+  color: darkolivegreen;
+}
+
+a:visited {
+  color: darkred;
+}
+
+a:hover {
+  background: white;
+  border-radius: 15px;
+}
+
+p {
+  padding: 1em;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  text-decoration: none;
+}
+
+nav {
+  font-size: 1.25em;
+}
+
+article {
+  margin: auto;
+  width: 50%;
+}
+
+section {
+  background: papayawhip;
+  border-radius: 15px;
+  border: 10px;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+
+footer {
+  background-color: papayawhip;
+  border-radius: 15px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  float: left;
+}
