@@ -1,21 +1,31 @@
+header {
+  text-decoration: none;
+  padding: 1rem;
+  font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+  font-size: 1.25rem;
+  margin:0;
+  padding:0;
+  text-align:center;
+  width: 100%;
+  font-family: 'Work Sans', sans-serif;
+}
+
 body {
-  background: #80bfff;
-  color: #ff3300;
+  background-image:url('../images/bike_bridge.jpg');
+  background-size: cover;
   height: 100%;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 a {
-  color: darkolivegreen;
+  color: black;
 }
 
 a:visited {
   color: darkred;
-}
-
-a:hover {
-  background: white;
-  border-radius: 15px;
 }
 
 a:active {
@@ -23,40 +33,31 @@ a:active {
 }
 
 p {
-  padding: 1em;
-}
-
-header {
-  text-align: center;
-}
-
-h1 {
-  text-decoration: none;
-}
-
-nav {
-  font-size: 1.25em;
+  padding: 1rem;
 }
 
 article {
   margin: auto;
+  padding: 1rem;
   width: 50%;
   text-align: center;
 }
 
 section {
-  background: papayawhip;
-  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.5);
   border: 20px;
   padding: 10px;
   margin: 10px;
   float: left;
+  color: white;
 }
 
+footer nav {
+  font-size: .75rem;
+}
 
 footer {
-  background-color: papayawhip;
-  border-radius: 15px;
+  font-size: .75rem;
   padding: 10px;
   width: 100%;
   text-align: center;
