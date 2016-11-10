@@ -6,8 +6,7 @@ header {
 
 nav {
   font-size: 1.25rem;
-  margin:0;
-  padding:0;
+  margin:1rem;
   text-align:center;
   width: 100%;
   font-family: 'Work Sans', sans-serif;
@@ -22,6 +21,7 @@ body {
 
 a {
   color: black;
+  text-decoration: none;
 }
 
 a:visited {
@@ -29,27 +29,36 @@ a:visited {
 }
 
 a:active {
-  color: crimson;
+  color: darkred;
+}
+
+nav a {
+  padding:1rem;
 }
 
 p {
   padding: 1rem;
 }
 
+h3 {
+  font-size: .8rem;
+}
+
 article {
   margin: auto;
   padding: 1rem;
-  width: 50%;
+  width: 100%;
   text-align: center;
 }
 
 section {
   background: rgba(0, 0, 0, 0.5);
-  border: 20px;
-  padding: 10px;
-  margin: 10px;
+  border: 1rem;
+  padding: 1rem;
+  margin: 1rem;
   float: left;
   color: white;
+  width: 40%;
 }
 
 footer nav {
@@ -58,9 +67,21 @@ footer nav {
 
 footer {
   font-size: .75rem;
+  font-weight: bold;
   padding: 10px;
   width: 100%;
   text-align: center;
   margin: auto;
   float: left;
 }
+
+wrapper section{
+  color: black;
+  background: rgba(0, 0, 0, 0.5);
+  float: none;
+  display: inline;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
