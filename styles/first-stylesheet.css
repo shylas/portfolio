@@ -12,6 +12,20 @@ nav {
   font-family: 'Work Sans', sans-serif;
 }
 
+nav a:hover {
+  transition-property: color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  color: darkslategray;
+}
+
+nav i:hover {
+  transition-property: font-size;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+  font-size: 1.5rem;
+}
+
 body {
   background-image:url('../images/bike_bridge.jpg');
   background-size: cover;
@@ -59,6 +73,20 @@ section {
   float: left;
   color: white;
   width: 40%;
+}
+
+section img:hover {
+  transition:all 0.3s ease;
+  opacity:0.5;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
 }
 
 footer nav {
