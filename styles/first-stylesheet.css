@@ -4,6 +4,15 @@ header {
   font-family: 'Work Sans', sans-serif;
 }
 
+.offscreen {
+  position: absolute;
+  left: -100000px;
+  top:auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 nav {
   font-size: 1.25rem;
   margin:1rem;
