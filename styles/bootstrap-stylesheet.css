@@ -24,3 +24,11 @@ div.col-md-6 img{
 
 #success_message{ display: none;}
 
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../images/bike_bridge_crop4.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
