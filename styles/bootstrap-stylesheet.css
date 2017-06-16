@@ -1,6 +1,15 @@
+.page-header{
+  font-family: 'Cabin', sans-serif;
+}
+
+
 .nav{
   padding-bottom: 1rem;
   font-size: 1.5rem;
+}
+
+div.col-md-6{
+  padding-bottom: 2rem;
 }
 
 div.col-md-6 h3{
@@ -14,3 +23,4 @@ div.col-md-6 img{
 }
 
 #success_message{ display: none;}
+
